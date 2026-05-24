@@ -1,0 +1,12 @@
+Principal:
+ - header/btn/links/destIm: #0F62FE
+ - Icons/saude/confir/destPos: #2ECC71
+ - background: #ffffff
+ - cards/section2/A.conte: #F4F6F8
+ - promo/notificação: #FF7A00
+
+
+Secundaria:
+ - footer/menus/contraste: #12355B
+ - houver/fundo-suave: #A8E6CF
+ - texto: #5F6B7A

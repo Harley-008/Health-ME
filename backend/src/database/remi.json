@@ -1,0 +1,30 @@
+[
+  {
+    "id": "f4898133-f006-45c1-a002-110af3685155",
+    "nome": "Loratadina",
+    "valor": "7.45",
+    "descricao": "Antialérgico de 2º geração que bloqueia a ação da histamina no corpo",
+    "img": "img/remedio1.jpg"
+  },
+  {
+    "id": "088b250f-a7cf-4be8-a2a5-41a263badc8b",
+    "nome": "Penincelin G",
+    "valor": "201.00",
+    "descricao": "Antibiótico beta-lactâmico de largo espectro utilizado para tratar infecções bacterianas graves, como pneumonia, meningite e sífilis",
+    "img": "img/remedio2.jpg"
+  },
+  {
+    "id": "ab5f475a-e033-48b5-b877-f57ada2f708b",
+    "nome": "Azeus",
+    "valor": "30.67",
+    "descricao": "s\\g\\shagkgdskjgadsgdhas",
+    "img": ""
+  },
+  {
+    "id": "7e85d643-b83b-4aa0-b296-86fdac3e462c",
+    "nome": "Butilina",
+    "valor": "69.67",
+    "descricao": "gdskgkadjadgfadjgkadhlhaskdsnmbsnckadsckvajbcadakhsdkavh",
+    "img": ""
+  }
+]

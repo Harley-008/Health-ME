@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .cab .box-cab .box-pesT {
+    width: 65%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .cab .box-cab .box-pesT h1 {
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    margin: 30px 0 10px 5px;
+  }
+  .cab .box-cab .box-pesT input {
+    width: 90%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  .cab .logo {
+    width: 20dvw;
+    height: 20dvw;
+  }
+  .container {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .container .box {
+    width: 90%;
+    min-height: auto;
+  }
+  .container .box .img-box {
+    height: 200px;
+  }
+}

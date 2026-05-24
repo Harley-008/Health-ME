@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-pri-background: #ffffff;
+  --cor-pri-Icons-conf: #2ecc71;
+  --cor-pri-head-btn: #0f62fe;
+  --cor-alt-head: #0f63fe8f;
+  --cor-pri-cards: #f4f6f8;
+  --cor-pri-notifi: #ff7a00;
+  --cor-sec-footer-contraste: #12355b;
+  --cor-sec-houver-fundo: #a8e6cf;
+  --cor-sec-texto: #5f6b7a;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cor-pri-background);
+}
+
+.cab {
+  background-color: var(--cor-alt-head);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: start;
+  margin: 0 0 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+.cab .box-cab {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: start;
+  justify-content: flex-start;
+  padding: 5px;
+  gap: 10px;
+}
+.cab .logo {
+  width: 20dvw;
+  height: 20dvw;
+  order: -2;
+}
+.cab .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cab .box-cab .box-pesT {
+  width: 70%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.cab .box-cab .box-pesT h1 {
+  font-size: 2.5rem;
+  color: var(--cor-pri-background);
+  letter-spacing: 20px;
+  text-align: center;
+  margin: 50px 0 20px 5px;
+}
+.cab .box-cab .box-pesT input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: var(--cor-sec-texto);
+  background-color: var(--cor-pri-cards);
+  margin-right: 10px;
+  transition: box-shadow 0.3s ease;
+}
+.cab .box-cab .box-pesT input:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--cor-sec-footer-contraste);
+}
+.cab .box-cab .box-pesT input::placeholder {
+  color: var(--cor-sec-texto);
+}
+.cab .box-cab .box-pesT .pesquisa {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.cab .box-cab .box-pesT button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.cab .box-cab .box-pesT button:active {
+  transform: scale(0.95);
+}
+.cab .box-cab .box-pesT button:hover {
+  background-color: var(--cor-sec-houver-fundo);
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: contrast(2);
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+.cab .box-cab .box-pesT button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  padding: 20px;
+}
+.container .box {
+  background-color: var(--cor-pri-cards);
+  width: calc(25% - 30px);
+  min-width: 250px;
+  height: auto;
+  min-height: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.container .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+.container .box .img-box {
+  width: 90%;
+  height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .box .img-box img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container .box .box-info {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .box .box-info h2 {
+  font-size: 1.5rem;
+  color: var(--cor-pri-head-btn);
+}
+.container .box .box-info .tags {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.container .box .box-info .tags li {
+  list-style: none;
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: var(--cor-pri-Icons-conf);
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.container .box .box-btn {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container .box .box-btn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--cor-pri-head-btn);
+  color: var(--cor-pri-background);
+  font-size: 1rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.container .box .box-btn button:hover {
+  background-color: var(--cor-sec-houver-fundo);
+  cursor: pointer;
+  color: #000000;
+  transform: scale(1.1);
+}
+.container .box .box-btn button:active {
+  transform: scale(0.95);
+}
+
+.container .box .plus-btn {
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c4c4c4;
+  border: 2px dashed #0000007c;
+}
+.container .box .plus-btn:hover {
+  background-color: var(--cor-sec-houver-fundo);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.container .box .plus-btn:active {
+  transform: scale(0.95);
+}
+.container .box .info {
+  text-align: center;
+  color: var(--cor-sec-texto);
+  font-size: 1rem;
+}
+
+.rod {
+  background-color: var(--cor-sec-footer-contraste);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);
+}
+.rod .box-rod {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.rod .box-rod p {
+  color: var(--cor-pri-background);
+  font-size: 1rem;
+}
