@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/remi";
+const API_URL = "https://health-me-backend-yags.onrender.com/remi";
 
 async function carregarRemedios() {
   try {
